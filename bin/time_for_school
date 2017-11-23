@@ -29,4 +29,4 @@ pam.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
 puts pam.knowledge
-puts steve.knowledge
+puts steve.knowledge.to_s
