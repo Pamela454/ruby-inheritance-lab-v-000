@@ -28,5 +28,5 @@ steve.learn(some_knowledge)
 pam.learn(some_knowledge)
 
 puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' from Avi"
-puts pam.knowledge
+puts pam.knowledge.to_s
 puts steve.knowledge.to_s
